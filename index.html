@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="sticky-top" onload="init()">
+    <table class="calc btn btn-light border border-dark border-0">
+        <tr>
+            <td colspan="4"> <span class="resultado border border-secondary border text-danger shadow-lg p-3 mb-5 bg-white rounded rounded-pill" id="resultado" ></span></td>
+        </tr>
+        <tr > 
+            <!-- asignamos Id a cada elemento incluido resultado -->
+            <td><button id="siete"class="btn btn-outline-secondary">7</button></td>
+            <td><button id="ocho"class="btn btn-outline-secondary" >8</button></td>
+            <td><button id="nueve"class="btn btn-outline-secondary">9</button></td>
+            <td><button id="division"class="btn btn-outline-secondary">/</button></td>
+        </tr>
+        <tr>
+            <td><button id="cuatro"class="btn btn-outline-secondary">4</button></td>
+            <td><button id="cinco"class="btn btn-outline-secondary">5</button></td>
+            <td><button id="seis"class="btn btn-outline-secondary">6</button></td>
+            <td><button id="multiplicacion"class="btn btn-outline-secondary">x</button></td>
+        </tr>
+        <tr>
+            <td><button id="uno"class="btn btn-outline-secondary">1</button></td>
+            <td><button id="dos"class="btn btn-outline-secondary">2</button></td>
+            <td><button id="tres"class="btn btn-outline-secondary">3</button></td>
+            <td><button id="resta"class="btn btn-outline-secondary">-</button></td>
+        </tr>
+        <tr>
+            <td><button id="igual"class="btn btn-outline-secondary">=</button></td>
+            <td><button id="reset"class="btn btn-outline-secondary">AC</button></td>
+            <td><button id="cero"class="btn btn-outline-secondary">0</button></td>
+            <td><button id="suma"class="btn btn-outline-secondary">+</button></td>
+        </tr>
+    </table>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
